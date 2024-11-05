@@ -1,0 +1,83 @@
+body {
+    background-color: #edece5;
+    color: #62532e;
+    font-family: 'Palatino Linotype', serif;
+    margin: 40px 80px 40px 80px;
+
+}
+
+.main-text:hover {
+    color:#4d452b;
+    text-decoration: underline;
+
+}
+
+.main-text {
+    color:#62532e;
+    text-decoration: none;
+
+
+}
+
+.active {
+    font-weight: bold;
+    color:#4d452b;
+}
+
+nav {
+    font-size: 19px;
+
+}
+
+.soder {
+    color:#62532e;
+    text-decoration: none;
+    font-size: larger;
+}
+.soder:hover {
+    color:#4d452b;
+    text-decoration: underline;
+}
+
+.picture_right1 {
+    float:right;
+    margin-left: 20px;
+    border: 10px ridge #62532e;
+}
+
+table {
+    background-image: url(https://avatars.mds.yandex.net/i?id=ca8495d94f75fe5c5f142810b3bfa422-5876004-images-thumbs&n=13);
+	width: 100%;
+    border: 1px solid #4d452b;
+    border-collapse: separate;
+    
+}
+
+th {
+    font-size: 18px;
+	padding: 4px;
+	background: #ada08b;
+	border: 1px solid #473f26;
+}
+
+td {
+	border: 1px solid #473f26;
+	padding: 5px;
+}
+
+.stih{
+    color:#62532e;
+    text-decoration: none;
+}
+
+.stih:hover {
+    color:#4d452b;
+    text-decoration: underline;
+}
+
+.picture_right2 {
+    float:right;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border: 10px ridge #786c46;
+}

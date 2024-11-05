@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Романов Дмитрий">
+    <link rel="stylesheet" href="css/mine.css">
+    <title>Задача. Форма.</title>
+</head>
+<body>
+
+    <header>
+        <nav align = center>
+           <h2 align = center>Навигация</h2>
+           <a class="main-text" href="index.html">Главная страница.</a>
+           <a class="main-text" href="1.html">Мемориальный музей Бориса Пастернака.</a>
+           <a class="main-text" href="2.html">Скарятинский сад.</a>
+           <a class="main-text" href="3.html">Музей истории города.</a><br>
+           <a class="main-text" href="4.html">Присоединяйся к туру!</a>
+           <a class="main-text" href="https://chistopol.речные-круизы.рф/" target="_blank">Речные круизы из Чистополя.</a>
+           <a class="main-text" href="passport.html">Паспорт.</a>
+           <a class="main-text" href="scrin.html">Скрин.</a>
+           <a class="main-text" href="task1.html">Задача.</a>
+           <a class="active" href="task2.html">Форма для задачи.</a>
+           <a class="main-text" href="https://chisto-muzei.ru/syv/?ysclid=m30tlvndvy107063900" target="_blank"><img height="25px" src="https://www.inventicons.com/uploads/iconset/252/wm/512/Hand-And-Gift-91.png"></a>
+              
+        </nav>
+    </header>
+
+    <p name="dano">Дано. Номер места в плацкартном вагоне. Определить, какое это место: верхнее или нижнее, в купе или боковое.</p>
+    <form action="https://www.google.ru/" id="Enter" name="Enter" target="_blank">
+        <ul>
+            <li>Поисковик:<input name="Я" value="поиск"></li>
+            <li>Формулировка задачи
+                <br><textarea cols="50" rows="3" name="dano">Дано. Номер места в плацкартном вагоне. Определить, какое это место: верхнее или нижнее, в купе или боковое.</textarea></li>
+            <li>Номер места: <input id="n" name="number" type="number" value = "23"></li>
+            <li>Результат решения: <input id="message" name="message" value="не известно"></li>
+            <li>Расположение: <input id="for_click" type="button" value="Узнать место"></li>
+            <li>Отправление: <input id="send" type="button" value="Отправить"></li>
+        </ul>
+    </form>
+
+</body>
+<script src="task2.js"></script>
+</html>

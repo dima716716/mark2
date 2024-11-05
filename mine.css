@@ -1,0 +1,47 @@
+body {
+    background-color: #edece5;
+    color: #245975;
+    font-family: 'Palatino Linotype', serif;
+    margin: 40px 80px 40px 80px;
+
+}
+
+.main-text:hover {
+    color:#272f99;
+    text-decoration: underline;
+
+}
+
+.main-text {
+    color:#245675;
+    text-decoration: none;
+
+
+}
+
+.active {
+    font-weight: bold;
+    color:#272f99;
+}
+
+nav {
+    font-size: 19px;
+
+}
+
+
+.picture {
+    margin-left: 240px;
+    margin-bottom: 40px;
+    border: 10px ridge #83b2cb;
+
+}
+
+.center {
+    text-align: center
+}
+
+.button_task{
+    margin-left: 47.5%;
+
+}

@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/64/1c/13/641c13755f47d7b685c12600b5ded878.jpg) ;
+    background-position: center-botton;
+    background-repeat: no-repeat;
+    
+}
+
+.block1 {
+    margin-left: 100;
+    margin-top: 68;
+}
+
+.block2 {
+    margin-left: 88;
+    margin-top: 59;
+}
+
+.block3 {
+    margin-left: 313;
+    margin-top: -15;
+}
